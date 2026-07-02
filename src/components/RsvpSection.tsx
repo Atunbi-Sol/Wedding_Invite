@@ -1,5 +1,3 @@
-"use client";
-
 export default function RsvpSection() {
   const contacts = [
     { name: "Ireoluwatomiwa", phone: "07023769011", whatsapp: "+2347023769011" },

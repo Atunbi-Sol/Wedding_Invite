@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useCallback } from "react";
 import Petals from "@/components/Petals";
 import Envelope from "@/components/Envelope";
@@ -14,7 +12,7 @@ import RsvpSection from "@/components/RsvpSection";
 import MusicPlayer from "@/components/MusicPlayer";
 import ShareButton from "@/components/ShareButton";
 
-export default function Home() {
+export default function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [showInvite, setShowInvite] = useState(false);
   const [stageHidden, setStageHidden] = useState(false);

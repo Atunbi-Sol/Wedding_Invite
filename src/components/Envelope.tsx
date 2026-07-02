@@ -1,5 +1,3 @@
-"use client";
-
 interface EnvelopeProps {
   isOpen: boolean;
   onOpen: () => void;

@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback } from "react";
 
 export default function ShareButton() {

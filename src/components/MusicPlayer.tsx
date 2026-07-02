@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useCallback } from "react";
 
 export default function MusicPlayer() {
@@ -68,16 +66,7 @@ export default function MusicPlayer() {
         </svg>
       )}
 
-      <style jsx>{`
-        @keyframes musicBar {
-          0% {
-            height: 4px;
-          }
-          100% {
-            height: 16px;
-          }
-        }
-      `}</style>
+
     </button>
   );
 }
