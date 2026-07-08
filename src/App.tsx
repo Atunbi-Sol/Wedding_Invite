@@ -81,13 +81,13 @@ export default function App() {
                 The Families Of
               </p>
               <p className="text-[1.05rem] font-semibold tracking-wide text-plum m-0 mb-1.5 leading-relaxed">
-                Deacon &amp; Mrs Ataunoko Oloriire
+                Mr &amp; Mrs Oloriire
               </p>
               <p className="font-playfair italic text-gold m-0 mb-0.5 text-base">
                 &amp;
               </p>
               <p className="text-[1.05rem] font-semibold tracking-wide text-plum m-0 mb-1.5 leading-relaxed">
-                Late Elder &amp; Mrs Peter Olawuyi
+                Mr &amp; Mrs Olawuyi
               </p>
               <p className="text-base text-ink/85 m-0 mt-4">
                 cordially invite you to the
@@ -160,8 +160,8 @@ export default function App() {
             {/* Footer */}
             <RevealSection as="footer" className="opacity-90">
               <Monogram small />
-              <p className="font-marcellus uppercase tracking-[0.2em] text-[0.6rem] text-rose-gold/60 mt-4">
-                with love
+              <p className="font-marcellus uppercase tracking-[0.2em] text-[0.6rem] text-rose-gold/60 mt-4 font-bold">
+                Thanks for coming!
               </p>
             </RevealSection>
           </div>
