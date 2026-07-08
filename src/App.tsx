@@ -81,13 +81,13 @@ export default function App() {
                 The Families Of
               </p>
               <p className="text-[1.05rem] font-semibold tracking-wide text-plum m-0 mb-1.5 leading-relaxed">
-                Pastor &amp; Mrs Ataunoko Oloriire
+                Deacon &amp; Mrs Ataunoko Oloriire
               </p>
               <p className="font-playfair italic text-gold m-0 mb-0.5 text-base">
                 &amp;
               </p>
               <p className="text-[1.05rem] font-semibold tracking-wide text-plum m-0 mb-1.5 leading-relaxed">
-                Dr. Olawuyi T. Solomon
+                Late Elder &amp; Mrs Peter Olawuyi
               </p>
               <p className="text-base text-ink/85 m-0 mt-4">
                 cordially invite you to the

@@ -46,6 +46,10 @@ const SCRIPTURES: Scripture[] = [
     text: "Many waters cannot quench love; rivers cannot sweep it away.",
     reference: "Song of Solomon 8:7",
   },
+  {
+    text: "Let him kiss me with the kisses of his mouth, for thy love is better than wine",
+    reference: "Song of Solomon 1:2",
+  },
 ];
 
 export default function LoveScripture() {
@@ -119,11 +123,10 @@ export default function LoveScripture() {
                   setAnimState("in");
                 }, 300);
               }}
-              className={`w-1.5 h-1.5 rounded-full transition-all duration-300 border-none cursor-pointer p-0 ${
-                i === currentIndex
-                  ? "bg-rose-gold w-4"
-                  : "bg-rose-gold/30 hover:bg-rose-gold/50"
-              }`}
+              className={`w-1.5 h-1.5 rounded-full transition-all duration-300 border-none cursor-pointer p-0 ${i === currentIndex
+                ? "bg-rose-gold w-4"
+                : "bg-rose-gold/30 hover:bg-rose-gold/50"
+                }`}
               aria-label={`Scripture ${i + 1}`}
             />
           ))}

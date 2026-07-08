@@ -6,7 +6,7 @@ export default function DetailsCard() {
       "PRODID:-//Wedding//EN",
       "BEGIN:VEVENT",
       "SUMMARY:Moroluwayosi & Damilare — Engagement Ceremony",
-      "LOCATION:Multipurpose Hall, Federal University of Technology, Akure (FUTA)",
+      "LOCATION:Afen Adebayo Multipurpose Hall, Federal University of Technology, Akure (FUTA)",
       "DESCRIPTION:Engagement ceremony of Moroluwayosi & Damilare.",
       "DTSTART:20261017T070000Z",
       "DTEND:20261017T100000Z",
@@ -52,12 +52,15 @@ export default function DetailsCard() {
       >
         Engagement Ceremony
         <strong className="block font-playfair text-xl tracking-normal mt-0.5 normal-case">
-          8:00 AM
+          7:00 AM
         </strong>
       </div>
 
       {/* Venue */}
       <div className="mb-5">
+        <p className="text-[0.95rem] text-ink/75 m-0 font-bold">
+          Afen Adebayo
+        </p>
         <p className="font-playfair font-bold text-xl text-plum uppercase tracking-wide m-0 mb-1">
           Multipurpose Hall
         </p>

@@ -1,6 +1,6 @@
 export default function VenueMap() {
   const mapQuery = encodeURIComponent(
-    "Multipurpose Hall, Federal University of Technology, Akure, FUTA"
+    "Afen Adebayo Multipurpose Hall, Federal University of Technology, Akure, FUTA"
   );
 
   return (

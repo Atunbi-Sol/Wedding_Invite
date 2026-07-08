@@ -15,7 +15,7 @@ export default function Monogram({ small = false }: MonogramProps) {
         boxShadow: "0 20px 45px -20px rgba(71, 37, 54, 0.45)",
       }}
     >
-      M<span className="text-[0.8em] px-0.5 text-[#ffe4ea]">♥</span>D
+      M<span className="text-[0.8em] px-0.5 text-[#E5095D]">♥</span>D
     </div>
   );
 }

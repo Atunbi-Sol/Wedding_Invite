@@ -22,12 +22,11 @@ export default function Petals() {
       p.style.left = `${Math.random() * 100}vw`;
       p.style.width = `${size}px`;
       p.style.height = `${size}px`;
-      p.style.background = "#c97b94";
+      p.style.background = "#ae2853ff";
       p.style.opacity = `${0.3 + Math.random() * 0.4}`;
       p.style.borderRadius = "70% 0 70% 0";
-      p.style.animation = `fall ${9 + Math.random() * 10}s linear ${
-        Math.random() * 10
-      }s infinite`;
+      p.style.animation = `fall ${9 + Math.random() * 10}s linear ${Math.random() * 10
+        }s infinite`;
       container.appendChild(p);
     }
 

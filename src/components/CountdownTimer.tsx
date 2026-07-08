@@ -73,7 +73,7 @@ export default function CountdownTimer() {
     return (
       <div className="mb-10 text-center">
         <p className="font-marcellus uppercase tracking-[0.25em] text-[0.78rem] text-rose-gold mb-5 relative">
-          <span className="inline-block w-[26px] h-px bg-gold align-middle mr-2.5" />
+          <span className="inline-block w-[26px] h-px bg-gold align-middle mr-2.5 font-playfair font-bold" />
           Counting Down
           <span className="inline-block w-[26px] h-px bg-gold align-middle ml-2.5" />
         </p>
