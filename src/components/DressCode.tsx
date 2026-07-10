@@ -12,11 +12,11 @@ export default function DressCode() {
         <div className="flex flex-col items-center gap-2.5">
           <div className="flex gap-2.5">
             <Swatch color="#fdfaf6" border="#e7d9c9" />
-            <Swatch color="#e8879f" />
+            <Swatch color="#722f37" />
           </div>
           <div className="flex gap-4 text-[0.78rem] text-ink/75">
             <span>White</span>
-            <span>Pink</span>
+            <span>Wine</span>
           </div>
         </div>
 
