@@ -87,7 +87,7 @@ export default function App() {
                 &amp;
               </p>
               <p className="text-[1.05rem] font-semibold tracking-wide text-plum m-0 mb-1.5 leading-relaxed">
-                Mr &amp; Mrs Olawuyi
+                Mr &amp; Mrs Atunbi
               </p>
               <p className="text-base text-ink/85 m-0 mt-4">
                 cordially invite you to the
