@@ -1,6 +1,6 @@
 export default function RsvpSection() {
   const contacts = [
-    { name: "Ireoluwatomiwa", phone: "07023769011", whatsapp: "+2347023769011" },
+    { name: "Ireoluwatomiwa", phone: "08107633737", whatsapp: "+2348107633737" },
     { name: "Tobiloba", phone: "08122965753", whatsapp: "+2348122965753" },
   ];
 
