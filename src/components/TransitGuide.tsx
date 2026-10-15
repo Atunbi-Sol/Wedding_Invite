@@ -5,14 +5,14 @@ export default function TransitGuide() {
       title: "From Ore / Ondo Route",
       path: "Ondo Park → Cathedral → FUTA North Gate",
       instruction:
-        "From the last bus stop, Ondo Park, take a bus or keke to Cathedral. From Cathedral, take a taxi to FUTA North Gate; when you get to the gate, enter and ask for Afen Adebayo Multipurpose Hall, FUTA, Akure.",
+        "From the last bus stop, Ondo Park, take a bus or keke to Cathedral. From Cathedral, take a taxi to FUTA North Gate; when you get to the gate, enter and ask for Afen Adebayo Multipurpose Hall.",
     },
     {
       number: "ROUTE 2",
       title: "From Ibadan Route",
       path: "Ibadan Expressway → FUTA North Gate",
       instruction:
-        "Stop at FUTA North Gate, enter and ask for Afen Adebayo Multipurpose Hall, FUTA, Akure.",
+        "Stop at FUTA North Gate, enter and ask for Afen Adebayo Multipurpose Hall.",
     },
   ];
 
