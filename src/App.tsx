@@ -4,6 +4,7 @@ import Envelope from "@/components/Envelope";
 import Monogram from "@/components/Monogram";
 import RevealSection from "@/components/RevealSection";
 import DetailsCard from "@/components/DetailsCard";
+import PhotoGallery from "@/components/PhotoGallery";
 import CountdownTimer from "@/components/CountdownTimer";
 import DressCode from "@/components/DressCode";
 import LoveScripture from "@/components/LoveScripture";
@@ -122,6 +123,11 @@ export default function App() {
             {/* Details Card */}
             <RevealSection delay={400}>
               <DetailsCard />
+            </RevealSection>
+
+            {/* Pre-Wedding Photo Gallery */}
+            <RevealSection delay={100}>
+              <PhotoGallery />
             </RevealSection>
 
             {/* Venue Map */}
