@@ -1,3 +1,5 @@
+import TransitGuide from "@/components/TransitGuide";
+
 export default function VenueMap() {
   const mapQuery = encodeURIComponent(
     "Afen Adebayo Multipurpose Hall, Federal University of Technology, Akure, FUTA"
@@ -52,6 +54,12 @@ export default function VenueMap() {
         </svg>
         Get Directions
       </a>
+
+      {/* Travel & Transit Guide */}
+      <div className="mt-7">
+        <TransitGuide />
+      </div>
     </div>
   );
 }
+
